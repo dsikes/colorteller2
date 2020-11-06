@@ -43,6 +43,6 @@ returns w/ http status of 500.
 This route simulates a service that has encountered an internal server error.
 
 ### `GET /random`
-returns a random status code between 200, 400 and 500, after a random delay between 1-10 seconds.
+returns a random status code between 200, 400 and 500, after a random delay between 1-5 seconds.
 If a 200 is returned, the defined or default color is also returned.
 This route simulates an real endpoint.
